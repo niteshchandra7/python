@@ -1,3 +1,5 @@
+# Cars is iterator because it implements __next__
+# Also Cars is iterables because it implements __iter__ 
 class Cars:
     def __init__(self,car_names:list) -> None:
         self.cars_names:list = car_names
