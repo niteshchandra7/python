@@ -47,4 +47,4 @@ print(sum_all_numbers(1,2,3))
 
 print(sum_all_numbers(*t))
 
-
+print(int(2/3))
