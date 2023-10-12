@@ -17,6 +17,9 @@ class Car:
     
     def __and__(self,obj):
         return self.id & obj.id  
+    
+    def __or__(self,obj):
+        return self.id | obj.id
 
 car1 = Car(CarType.HATCHBACK,1)
 print(car1)
@@ -26,6 +29,10 @@ print(car2)
 
 print(car1 & car2)
 print(car1 | car2)
+
+print(None and car2)
+
+print(car1 or car2)
 
 
 
